@@ -14,7 +14,6 @@ def cargaCifrado():
     archivo.close()
     return renglon
 
-#Se crea un arreglo donde se coloca el alfabeto y se crea una llave con la cantidad de caracteres del arreglo
 def cifraCesar(llave, cad):
     alfabeto = "abcdefghijklmnopqrstuvwxyz"
     cifrado = ""
